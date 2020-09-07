@@ -40,18 +40,18 @@ bool isValid(char game[3][3], int i, int j)
 
 {
 
-    return game[i][j] ==’ ’;
+    return game[i][j] =='';
 }
 
 void display(char game[3][3])
 
 {
 
-    cout << game[0][0] << “ ” << game[0][1] << “ ” < game[0][2] << endl;
+    cout << game[0][0] << "" << game[0][1] << "" < game[0][2] << endl;
 
-    cout << game[1][0] << “ ” << game[1][1] << “ ” < game[1][2] << endl;
+    cout << game[1][0] << "" << game[1][1] << "" < game[1][2] << endl;
 
-    cout << game[2][0] << “ ” << game[2][1] << “ ” < game[2][2] << endl;
+    cout << game[2][0] << "" << game[2][1] << "" < game[2][2] << endl;
 }
 
 int main()
