@@ -40,7 +40,7 @@ bool isValid(char game[3][3], int i, int j)
 
 {
 
-    return game[i][j] =='';
+    return game[i][j] ==' ';
 }
 
 void display(char game[3][3])
